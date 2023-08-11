@@ -1,6 +1,6 @@
 footer {
     padding: 15px;
-    transform: translateX(1200px);
+    transform: translateX(-400px);
     transition: transform 1.2s ease;
     .first_section {
         margin-bottom: 20px;
@@ -97,6 +97,8 @@ footer.show {
 @media (min-width: 675px) {
     footer {
         padding: 15px 110px;
+        transform: translateX(1200px);
+        transition: transform 1.2s ease;
         .first_section {
             padding: 0 25px;
             margin-bottom: 30px;

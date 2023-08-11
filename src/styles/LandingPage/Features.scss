@@ -20,6 +20,7 @@ section.features {
         .wrapper {
             display: flex;
             flex-direction: column;
+            margin: auto;
 
             .card {
                 width: 280px;
@@ -181,7 +182,7 @@ section.features.show {
                 display: flex;
                 flex-direction: row;
                 justify-content: space-around;
-
+                
                 .card {
                     width: 455px;
                     height: 841px;
@@ -189,6 +190,7 @@ section.features.show {
                     border-radius: 10px;
                     position: relative;
                     margin-bottom: 85px;
+                    margin-right: 40px;
 
                     img.icon {
                         margin-top: 40px;
