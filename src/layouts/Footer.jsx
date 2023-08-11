@@ -13,9 +13,7 @@ function Footer() {
     const { ref: myFooterRef, inView: myFooterIsVisible } = useInView()       
   return (
     <React.Fragment>
-          <footer ref={myFooterRef} className={() => {
-              if (myFooterIsVisible) { return 'show' }
-          }}>
+        <footer ref={myFooterRef} className={myFooterIsVisible ? "show" : ""}>
             <div className="first_section">
                 <div className="logo">
                     <img className='logo_icon' src={FooterLogo} alt="" />
