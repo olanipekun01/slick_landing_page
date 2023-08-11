@@ -1,0 +1,282 @@
+section.features {
+    padding: 15px 15px;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+    h2 {
+        font-size: 32px;
+        font-weight: 800;
+        line-height: 38.4px;
+        color: #09141E;
+        text-align: center;
+        transform: translateX(-1100px);
+        transition: transform 0.5s ease;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+
+        .wrapper {
+            display: flex;
+            flex-direction: column;
+
+            .card {
+                width: 280px;
+                height: 524px;
+                background: #F7F7F7;
+                padding: 0 35px;
+                border-radius: 10px;
+                position: relative;
+                margin-bottom: 45px;
+                transform: translateX(-700px);
+                transition: transform 0.9s ease;
+                img.icon {
+                    margin-top: 40px;
+                    width: 43px;
+                    height: 43px;
+                }
+
+                h3 {
+                    font-size: 22px;
+                    font-weight: 800;
+                    line-height: 31px;
+                    width: 280px;
+                }
+
+                p {
+                    font-size: 11px;
+                    font-weight: 500;
+                    line-height: 17px;
+                }
+
+                figure {
+                    margin: 0;
+                    padding: 0;
+                    position: absolute;
+                    bottom: -4px;
+                    img {
+                        width: 283px;
+                    }
+
+                    .cart_geometric {
+                        width: 196px;
+                        height: 226px;
+                        margin-bottom: -22px;
+                    }
+
+                    .cart_minimal {
+                        width: 195px;
+                        height: 190px;
+                        margin-top: -172px;
+                        margin-left: 96px;
+                    }
+
+
+                }
+            }
+
+            .card:last-child {
+                transform: translateX(700px);
+            }
+        }
+
+        .card.map {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 0 35px;
+            height: 147px;
+            background: #F7F7F7;
+            border-radius: 10px;
+            overflow-x: hidden;
+            
+
+            .wrap {
+                transform: translateX(-700px);
+                transition: transform 0.6s ease;
+                img.icon {
+                    margin-top: 40px;
+                    width: 20px;
+                    height: 20px;
+                }
+
+                h3 {
+                    font-size: 10px;
+                    font-weight: 800;
+                    line-height: 14px;
+                    width: 145px;
+                    text-transform: uppercase;
+                }
+
+                p {
+                    font-size: 5px;
+                    font-weight: 500;
+                    line-height: 8px;
+                    width: 145px;
+                }
+            }
+
+            figure {
+                padding: 0;
+                transform: translateX(700px);
+                transition: transform 1.2s ease;
+
+                img {
+                    width: 155px;
+                    height: 132px;
+                    margin-left: -32px;
+                }
+            }
+        }
+    }
+}
+
+section.features.show {
+    h2 {
+        transform: translateX(0);
+    }
+
+    .container {
+        .wrapper {
+            .card {
+                transform: translateX(0);
+            }
+        }
+
+        .card.map.show {
+            .wrap {
+                transform: translateX(0);
+            }
+
+            figure {
+                transform: translateX(0);
+            }
+        }
+    }
+}
+
+
+
+@media (min-width: 675px) {
+    section.features {
+        padding: 15px 45px;
+
+        h2 {
+            font-size: 48px;
+            width: 805px;
+            margin: auto;
+            margin-top: 50px;
+            transform: translateX(-400);
+            transition: transform 0.2s ease;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            margin-top: 40px;
+            padding: 0 65px;
+
+            .wrapper {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+
+                .card {
+                    width: 455px;
+                    height: 841px;
+                    padding: 0 45px;
+                    border-radius: 10px;
+                    position: relative;
+                    margin-bottom: 85px;
+
+                    img.icon {
+                        margin-top: 40px;
+                        width: 69px;
+                        height: 69px;
+                    }
+
+                    h3 {
+                        font-size: 36px;
+                        font-weight: 800;
+                        line-height: 50px;
+                        width: 453px;
+                    }
+
+                    p {
+                        font-size: 18px;
+                        font-weight: 500;
+                        line-height: 27px;
+                    }
+
+                    figure {
+                        margin: 0;
+                        padding: 0;
+                        position: absolute;
+                        bottom: -4px;
+
+                        img {
+                            width: 450px;
+                        }
+
+                        .cart_geometric {
+                            width: 320px;
+                            height: 350px;
+                            margin-bottom: -122px;
+                        }
+
+                        .cart_minimal {
+                            width: 295px;
+                            height: 290px;
+                            margin-top: -172px;
+                            margin-left: 156px;
+                        }
+
+
+                    }
+                }
+            }
+
+            .card.map {
+                display: flex;
+                flex-direction: row;
+                justify-content: space-between;
+                padding: 0 45px;
+                height: 494px;
+                background: #F7F7F7;
+
+                .wrap {
+                    img.icon {
+                        margin-top: 40px;
+                        width: 69px;
+                        height: 69px;
+                    }
+
+                    h3 {
+                        font-size: 36px;
+                        font-weight: 800;
+                        line-height: 50px;
+                        width: 555px;
+                    }
+
+                    p {
+                        font-size: 18px;
+                        font-weight: 500;
+                        line-height: 27px;
+                        width: 555px;
+                    }
+                }
+
+                figure {
+                    padding: 0;
+
+                    img {
+                        width: 505px;
+                        height: 420px;
+                        margin-left: -32px;
+                    }
+                }
+            }
+        }
+    }
+}

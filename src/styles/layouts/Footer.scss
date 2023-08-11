@@ -1,0 +1,200 @@
+footer {
+    padding: 15px;
+    transform: translateX(1200px);
+    transition: transform 1.2s ease;
+    .first_section {
+        margin-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        .logo {
+            display: flex;
+            align-items: center;
+            img.logo_icon {
+                width: 27px;
+                height: 37px;
+            }
+
+            span {
+                color: #902A9C;
+                font-size: 20px;
+                font-weight: 800;
+                line-height: 24px;
+                margin-left: 8px;
+            }
+        }
+
+        .nav_bar {
+            margin-top: 40px;
+            ul {
+                list-style: none;
+                padding: 0;
+                display: flex;
+                flex-direction: column;
+                li {
+                    margin-bottom: 20px;
+                    font-weight: 500;
+                    font-size: 17px;
+                    line-height: 30px;
+
+                    img {
+                        margin-bottom: -7px;
+                        margin-left: -3px;
+                    }
+                }
+            }
+        }
+
+        .social_icon {
+            margin-top: 20px;
+            a {
+                margin-right: 20px;
+                img {
+                    width: 16px;
+                    height: 13px;
+                }
+            }
+        }
+    }
+
+    .second_section {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-top: 20px;
+        .copyright {
+            span {
+                color: #66768E;
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 30px;
+            }
+        }
+
+        .rights_policy {
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 30px;
+            width: 276px;
+            margin: 20px auto;
+            span {
+                color: #66768E;
+                
+            }
+
+            a {
+                
+                color: #8E239A;
+                
+            }
+        }
+    }
+}
+
+footer.show {
+    transform: translateX(0);
+}
+
+@media (min-width: 675px) {
+    footer {
+        padding: 15px 110px;
+        .first_section {
+            padding: 0 25px;
+            margin-bottom: 30px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            .logo {
+                display: flex;
+                align-items: center;
+
+                img.logo_icon {
+                    width: 27px;
+                    height: 37px;
+                }
+
+                span {
+                    color: #902A9C;
+                    font-size: 20px;
+                    font-weight: 800;
+                    line-height: 24px;
+                    margin-left: 8px;
+                }
+            }
+
+            .nav_bar {
+                margin-top: 40px;
+
+                ul {
+                    list-style: none;
+                    padding: 0;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: space-between;
+                    width: 438px;
+
+                    li {
+                        margin-bottom: 20px;
+                        font-weight: 500;
+                        font-size: 17px;
+                        line-height: 30px;
+
+                        img {
+                            margin-bottom: -7px;
+                            margin-left: -3px;
+                        }
+                    }
+                }
+            }
+
+            .social_icon {
+                margin-top: 20px;
+                
+                a {
+                    margin-right: 20px;
+
+                    img {
+                        width: 16px;
+                        height: 13px;
+                    }
+                }
+            }
+        }
+
+        .second_section {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            text-align: center;
+            margin-top: 20px;
+
+            .copyright {
+                span {
+                    color: #66768E;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 30px;
+                }
+            }
+
+            .rights_policy {
+                font-weight: 400;
+                font-size: 18px;
+                line-height: 30px;
+                width: 500px;
+                margin: 0px 0;
+
+                span {
+                    color: #66768E;
+
+                }
+
+                a {
+
+                    color: #8E239A;
+
+                }
+            }
+        }
+    }
+}
