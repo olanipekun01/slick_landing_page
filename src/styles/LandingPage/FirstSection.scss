@@ -144,6 +144,7 @@ section.first_section {
             border: none;
             transform: translateX(400px);
             transition: transform 1.1s ease;
+            margin-bottom: -20px;
             figure {
                 border: none;
                 padding: 0;
@@ -283,6 +284,7 @@ section.first_section {
                         width: 238px;
                         transform: translateX(-600px);
                         transition: transform 0.9s ease;
+                        cursor: pointer;
                     }
                 
                     .customer_rating_wrapper {
@@ -327,6 +329,7 @@ section.first_section {
                 position: relative;
                 transform: translateX(600px);
                 transition: transform 1.1s ease;
+                margin-bottom: -19px;
                 figure {
                     margin: 0;
 

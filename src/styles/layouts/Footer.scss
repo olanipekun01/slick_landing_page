@@ -1,6 +1,6 @@
 footer {
     padding: 15px;
-    transform: translateX(-400px);
+    transform: translateX(-300px);
     transition: transform 1.2s ease;
     .first_section {
         margin-bottom: 20px;
@@ -9,6 +9,7 @@ footer {
         .logo {
             display: flex;
             align-items: center;
+            cursor: pointer;
             img.logo_icon {
                 width: 27px;
                 height: 37px;
@@ -35,6 +36,7 @@ footer {
                     font-weight: 500;
                     font-size: 17px;
                     line-height: 30px;
+                    cursor: pointer;
 
                     img {
                         margin-bottom: -7px;
@@ -48,6 +50,7 @@ footer {
             margin-top: 20px;
             a {
                 margin-right: 20px;
+                cursor: pointer;
                 img {
                     width: 16px;
                     height: 13px;
@@ -84,7 +87,7 @@ footer {
             a {
                 
                 color: #8E239A;
-                
+                cursor: pointer;
             }
         }
     }
